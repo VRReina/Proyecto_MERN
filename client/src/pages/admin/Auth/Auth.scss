@@ -1,0 +1,76 @@
+@import "src/scss/index.scss";
+
+.auth {
+    background-color: #fff;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 100px;
+    .logo{
+        width: 200px;
+        margin-bottom: 30px;
+    }
+
+
+&_forms{
+    width: 450px;
+}
+
+.ui.menu{
+    .item{
+        width: 50%;
+        justify-content: center;
+        background-color: rgb(255, 255, 255)!important;
+        border-radius:  0 !important;
+        border-top: 4px solid #ec7c1cff !important;
+        font-size: 18px;
+    }
+
+    .active {
+        font-weight: normal;
+        border-radius: 0 !important;
+        border-top-color: #2419a9f8 !important;
+    }
+  }  
+}
+
+
+@media(max-width: 280px){
+    .auth{
+        width: 100%;
+    }
+
+    .auth_forms{
+        width: 250px;
+    }
+}
+@media(max-width: 320px){
+    .auth{
+        width: 100%;
+    }
+
+    .auth_forms{
+        width: 300px;
+    }
+}
+@media(max-width: 390px){
+    .auth{
+        width: 100%;
+    }
+
+    .auth_forms{
+        width: 250px;
+    }
+}
+@media(max-width: 500px){
+    .auth{
+        width: 100%;
+    }
+
+    .auth_forms{
+        width: 250px;
+    }
+}
